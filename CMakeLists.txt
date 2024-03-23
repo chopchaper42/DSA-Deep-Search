@@ -3,4 +3,8 @@ project(Deep_Search)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Deep_Search main.cpp)
+add_executable(Deep_Search main.cpp
+        maze.cpp
+        maze.h
+        Plate.cpp
+        Plate.h)
