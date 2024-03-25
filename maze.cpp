@@ -3,11 +3,12 @@
 #include <cstring>
 #include <algorithm>
 #include "maze.h"
-#include "Plate.h"
+//#include "Plate.h"
 
 
 using namespace std;
 
+/*
 bool containsInvalidSymbols(string str) {
     return any_of(str.begin(), str.end(), [](char c) { return c != '.' && c != '#'; });
 }
@@ -138,6 +139,7 @@ int Maze::getHeight() const { return height; }
 int Maze::getWidth() const { return width; }
 Plate*** Maze::getPlates() { return maze; }
 
+*/
 /*void Maze::buildTree(Plate &plate) {
     plate.addNeighbors(maze, width, height);
 
@@ -148,8 +150,10 @@ Plate*** Maze::getPlates() { return maze; }
         if (neighbor.getNeighbors().empty())
             buildTree(neighbor);
     }
-}*/
+}*//*
+
 
 bool Maze::isAnExit(Plate plate) const {
     return plate.getY() == height - 1 && plate.getX() == width - 2;
 }
+*/

@@ -2,12 +2,13 @@
 // Created by greg on 1.3.24.
 //
 
-#include "Plate.h"
+//#include "Plate.h"
 
 #ifndef DEEP_SEARCH_MAZE_H
 #define DEEP_SEARCH_MAZE_H
 
 #endif //DEEP_SEARCH_MAZE_H
+/*
 
 class Maze {
 public:
@@ -25,4 +26,4 @@ private:
     Plate*** maze;
 };
 
-Maze* createMaze();
+Maze* createMaze();*/
